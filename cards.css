@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+}
+
+.cards{
+    width:20%;
+    background-color: rgb(220, 198, 198);
+    border-radius: 8px;
+    box-shadow: 2px 2.5px 5px 4px;
+    margin-top: 10px;
+
+
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.description{
+    margin-top: 10px;
+    text-align: center;
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(249, 238, 238);
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 5px;  cursor: pointer;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+    cursor: pointer;
+}
